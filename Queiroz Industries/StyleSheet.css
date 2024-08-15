@@ -1,0 +1,275 @@
+@charset="UTF-8";
+
+header{
+	background-image: linear-gradient(315deg, #bbffe8, #55d6aa, #ffffff);
+}
+
+body{
+	background-color: #0c2b5e;
+	margin: 0 auto;
+	top: 10px;
+}
+
+header#Cabecalho h1{
+	display: inline;
+	font-size:30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+}
+
+header#Cabecalho h2{
+	display: inline;
+	font-size:18px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+}
+
+h1, h2{
+	font-family: Gadget, sans-serif;
+}
+
+div#title{
+	padding: 10px 0;
+}
+
+header#Cabecalho {
+    box-shadow: 10px 8px 5px rgba(0,0,0,.3);
+}
+
+.NavBar{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.NavBar img{
+	float: left;
+	Width: 100px;
+	Height: 60px;
+	padding: 10px 0;
+	vertical-align: middle;
+}
+
+nav#Menu ul{
+	position: absolute;
+	list-style: none;
+	text-transform: uppercase;
+	top: 25px;
+	right: 100px;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav#Menu ul li{
+	display: inline-block;
+	position: relative;
+	margin-left: 10px;
+	padding: 10px;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	transition: background-color 0.5s;
+}
+
+nav#Menu ul li:hover{
+	background-color: #00c884;
+}
+
+nav a{
+	font-style: bold;
+	color: #444;
+	text-decoration: none;
+	font-size: 15px;
+	display: block;
+}
+
+nav#Menu ul li ul li{
+	display: none;
+	padding: 10px;
+	top: 25px;
+	left: 100px;
+	background-color: #00c884;
+	box-shadow: 10px 8px 5px rgba(0,0,0,.3);
+}
+
+nav#Menu ul li:hover ul li{
+	display: block;
+}
+
+.FotoLegenda {
+	width: 45%;
+	height: auto;
+	background-color: powderblue;
+	border: 8px solid powderblue;
+	border-radius: 10px;
+	box-shadow: 5px 3px 15px black;
+	margin: 20px;
+    text-align: left;
+	display: inline-block;
+}
+
+.FotoLegenda img{
+	width: 100%;
+	height: auto;
+	border-radius: 4px;
+	box-shadow: 5px 3px 15px black;
+}
+
+.2Images{
+	display: block;
+}
+
+div#Img{
+	margin-left: -150px;
+}
+
+div#About h1{
+	font-family: Tahoma, Geneva, sans-serif;
+	display: block;
+	font-size:50px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+	text-align: center;
+	margin-bottom: -10px;
+	border-bottom: 2px #ffffff solid;
+}
+
+div#About h2{
+	display: block;
+	font-size:35px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+	text-align: center;
+}
+
+div#About p{
+	display: inline;
+	font-size:18px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+	text-align: justify;
+	margin: 20px;
+}
+
+div#TellMeMore h1{
+	font-family: Tahoma, Geneva, sans-serif;
+	display: block;
+	font-size:50px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+	text-align: center;
+	margin-bottom: -10px;
+	border-bottom: 2px #ffffff solid;
+}
+
+.EventsActivities h2{
+	display: block;
+	font-size:35px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+	padding: 20px;
+	text-align: center;
+}
+
+.EventsActivities p{
+	display: block;
+	font-size:18px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+	text-align: center;
+	margin: 20px;
+}
+
+.EventsActivities h3{
+	display: block;
+	font-size:25px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+	text-align: center;
+	margin: 5px;
+}
+
+img#Image5{
+	margin-left: 430px;
+}
+
+img#Image6{
+	margin-left: 390px;
+}
+
+footer{
+	background-image: linear-gradient(315deg, #bbffe8, #55d6aa, #ffffff);
+}
+
+footer h1{
+	display: block;
+	font-size:25px;
+	color: black;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+	Margin: 10px;
+	text-align: center;
+}
+
+.Rodape p{
+	display: block;
+	font-size:18px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+	text-align: left;
+	margin: 10px;
+}
+
+.Rodape{
+	Margin: 15px;
+	display: inline-block;
+	margin-left:70px;
+	vertical-align: middle;
+}
+
+footer img{
+	Width: 8%;
+	Height: auto;
+	padding: 10px 0;
+	margin-left: 100px;
+	vertical-align: middle;
+}
+
+.Rodape h2{
+	Margin: 10px;
+	text-align: center;
+	padding: 0px;
+	text-transform: uppercase;
+	transition: background-color 0.5s;
+	vertical-align: middle;
+}
+
+.Rodape h2:hover{
+	background-color: #00c884;
+}
+
+.Rodape a{
+	font-style: bold;
+	color: #444;
+	text-decoration: none;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.questions h3{
+	font-family: Tahoma, Geneva, sans-serif;
+	display: block;
+	font-size:30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+	text-align: center;
+	margin-bottom: 15px;
+	border-bottom: 2px #ffffff solid;
+}
+
+.questions p{
+	display: block;
+	font-size:20px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+	text-align: justify;
+	margin: 20px;
+}
